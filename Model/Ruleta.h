@@ -6,6 +6,7 @@
 #define RULETA_H
 
 #include "Juego.h"
+#include <iostream>
 #include<cstdlib>
 #include<ctime>
 
