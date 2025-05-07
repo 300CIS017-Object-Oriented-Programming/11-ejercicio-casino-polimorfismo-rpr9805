@@ -4,6 +4,14 @@
 
 #include "Mayor13.h"
 
+void Mayor13::mostrarReglas(){
+    cout << "El sistema generara un numero aleatorio ente 1 y 13, tras esto el usuario tiene 2 opciones. ";
+    cout << "Elegir jugar donde si el numero que saca el usuario es mayor que el del sistema ganara lo doble de lo apostado, ";
+    cout << "sin embargo si el numero no es mayor que el del sistema perdera todo lo apostado. ";
+    cout << "Por otro lado si decide no jugar perdera solo la mitad de lo apostado."<<endl;
+}
+
+
 float Mayor13::jugar(float gonzosApostar) {
     int opcion;
     float gonzosResultado;

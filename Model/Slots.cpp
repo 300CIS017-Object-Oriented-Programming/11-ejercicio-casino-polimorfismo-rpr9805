@@ -1,5 +1,14 @@
 #include "Slots.h"
 
+void Slots::mostrarReglas(){
+    cout << "En los slots se daran 3 numeros donde hay bastantes combinaciones que daran distintos resultados.";
+    cout << " Si los 3 numeros son 7 se dara mucho mas que lo apostado.";
+    cout << " Si los 3 numeros son iguales pero no 7 se dara una buena cantidad mas que lo apostado.";
+    cout << " Si los 3 numeros van en escala como por ejemplo 1 2 3 se dara un poco mas que lo apostado.";
+    cout << " Cualquier otro caso hara que se pierda lo apostado" << endl;
+}
+
+
 float Slots::jugar(float gonzosApostar) {
     float gonzosResultado;
     srand(time(nullptr));

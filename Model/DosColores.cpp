@@ -4,6 +4,17 @@
 
 #include "DosColores.h"
 
+
+void DosColores::mostrarReglas()
+{
+    cout << "Este juego tiene su base en 2 partes. Primero se tiene un dado de 6 caras que se lanzara y dara un numero aleatorio";
+    cout << "Luego el casino dara un color entre blanco y negro, ya con esto se determinara el resultado";
+    cout << "Si ambos son iguales al del casino se ganara bastante mas que lo apostado";
+    cout << "Si solo se adivina el numero del dado se gana un poco mas de lo apostado";
+    cout << "Si solo se adivina el color se deja el saldo neutral, pero si no se adivina ninguna se perdera lo apostado" <<endl;
+}
+
+
 float DosColores::jugar(float gonzosApostar) {
     float gonzosResultado;
     srand(time(nullptr));
